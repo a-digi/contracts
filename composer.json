@@ -1,0 +1,23 @@
+{
+  "name": "a-digi/contracts",
+  "description": "AriAva contracts. Contains interfaces for difference components",
+  "authors": [
+    {
+      "name": "Andet Tafa",
+      "email": "tafa.andet@googlemail.com"
+    }
+  ],
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "AriAva\\Contracts\\": "src/"
+    }
+  }
+}
